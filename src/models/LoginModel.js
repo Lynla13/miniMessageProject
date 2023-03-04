@@ -1,0 +1,1 @@
+// Thiết kế model cho chức năng đăng nhập

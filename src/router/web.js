@@ -4,7 +4,7 @@ let router = express.Router();
 
 //Khoi tao web router
 const initWebRouter = (app) => {
-    router.get('/', HomeController.getPage);
+    router.get('/', HomeController.getHome);
     return app.use('/', router);
 }
 export default initWebRouter
